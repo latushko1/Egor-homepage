@@ -1,7 +1,9 @@
 import React from 'react'
 
+
 function Main() {
   return (
+    
     <div>
         <div className='min-h-screen border-b-2 border-black grid place-items-center'>
             <div className='container'>
