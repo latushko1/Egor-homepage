@@ -4,7 +4,7 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-        <footer className='grid grid-cols-2 md:grid-cols-[180px_1fr_180px] bg-white'>
+        <footer className='grid grid-cols-2 md:grid-cols-[180px_1fr_180px] bg-primary'>
         <Link href='/'>
             <a className='flex align-middle items-center border-black border-r-2 justify-center py-4 text-xl uppercase font-bold'>
                 Latushko 1
