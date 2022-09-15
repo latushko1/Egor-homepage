@@ -1,9 +1,20 @@
 import Link from 'next/link'
 import React from 'react'
+import { motion } from 'framer-motion'
 
 function Header() {
   return (
-    <header className='grid grid-cols-2 md:grid-cols-[180px_1fr_180px] border-2 border-black bg-primary'>
+    <motion.header
+    initial={{
+        y: -50,
+        opacity:0,
+    }}
+    animate={{
+        y: 0,
+        opacity:1,
+        }}
+    transition={{ duration: 0.5 }}
+    className='grid grid-cols-2 md:grid-cols-[180px_1fr_180px] border-2 border-black bg-primary'>
 
         <Link href='/'>
             <a className='flex align-middle items-center border-black border-r-2 justify-center py-4 text-xl uppercase font-bold'>
@@ -11,7 +22,7 @@ function Header() {
             </a>
         </Link>
 
-        <Link href='/'>
+        <Link href='links'>
             <a className='md:col-start-3 md:border-l-2 border-black flex gap-2 text-lg justify-center items-center
             bg-primary hover:bg-yellow-500 ease-in-out duration-100 '>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -57,7 +68,7 @@ function Header() {
                 </li>
             </ul>
         </nav>
-    </header>
+    </motion.header>
   )
 }
 
