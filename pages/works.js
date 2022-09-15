@@ -24,7 +24,7 @@ function Works() {
         <div className='min-h-screen border-b-2 border-black pb-12'>
             <div className='container grid mt-3 md:grid-cols-2 gap-5'>
                 {portfolioData.map((item)=>(
-                    <div className='border-b-2 border-black'>
+                    <div key={item.id} className='border-b-2 border-black'>
                     <div className='pt-2'>
                         <h1 className='text-black text-4xl uppercase font-semibold  mt-3'>
                             {item.title}
