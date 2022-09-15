@@ -22,7 +22,7 @@ function Header() {
             </a>
         </Link>
 
-        <Link href='links'>
+        <Link href='#links'>
             <a className='md:col-start-3 md:border-l-2 border-black flex gap-2 text-lg justify-center items-center
             bg-primary hover:bg-yellow-500 ease-in-out duration-100 '>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -60,7 +60,7 @@ function Header() {
                     </Link>
                 </li>
                 <li>
-                    <Link href='/'>
+                    <Link href='#'>
                         <a className='text-black'>
                             Links
                         </a>
