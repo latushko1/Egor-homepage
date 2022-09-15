@@ -60,7 +60,7 @@ function Header() {
                     </Link>
                 </li>
                 <li>
-                    <Link href='#'>
+                    <Link href='#links'>
                         <a className='text-black'>
                             Links
                         </a>
