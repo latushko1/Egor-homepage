@@ -18,15 +18,15 @@ function Works() {
             amount:0.1
         }}
     id='works'>
-        <h1 className='container text-black text-6xl uppercase font-bold lg:text-9xl text-right my-12'>
+        <h1 className='container text-secondary text-6xl uppercase font-bold lg:text-9xl text-right my-12'>
                     works.
         </h1>
-        <div className='min-h-screen border-b-2 border-black pb-12'>
+        <div className='text-secondary min-h-screen border-b-2 border-secondary pb-12'>
             <div className='container grid mt-3 md:grid-cols-2 gap-5'>
                 {portfolioData.map((item)=>(
-                    <div key={item.id} className='border-b-2 border-black'>
+                    <div key={item.id} className='border-b-2 border-secondary'>
                     <div className='pt-2'>
-                        <h1 className='text-black text-4xl uppercase font-semibold  mt-3'>
+                        <h1 className='text-secondary text-4xl uppercase font-semibold  mt-3'>
                             {item.title}
                         </h1>
 
