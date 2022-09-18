@@ -47,7 +47,7 @@ function Main() {
             I am a third year student in information security at the Technological College of Omsk. I&apos;m also self-taught, I&apos;m very interested in frontend and backend development. I&apos;m very interested in creating things related to technology and art. I enjoy learning on platforms that help me improve my skills, such as:
             </p>
             <span className='text-secondary container text-lg uppercase font-italic'>FreeCodeCamp Academia X and TheOdinProject</span>
-            <Scroller text={ ` My stack : Html /Css / Scss / TailwindCss / React / NextJs `}/>
+            <Scroller text={ ` My stack : Html /Css / Scss / TailwindCss / React / NextJs. `}/>
 
             
         </motion.div>
