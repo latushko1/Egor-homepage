@@ -15,7 +15,7 @@ export const portfolioData = [
         id:2,
         title:"Shoes",
         thumbnail: Shoes,
-        link: "https://latushko1.github.io/MIRATEX/index.html",
+        link: "https://latushko1.github.io/shoes/",
         des1: "Jul 11",
         des2: "2022",
     },
