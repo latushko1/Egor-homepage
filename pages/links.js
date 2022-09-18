@@ -23,7 +23,7 @@ function Links() {
         <div className='text-secondary container mt-10 mr-10 min-h-[80vh]'>
             <ul>
                 <li>
-                    <Link href='https://www.pinterest.com/latushko1/'>
+                    <Link href='https://www.instagram.com/latushko1/'>
                         <a className='text-xl uppercase font-bold hover:underline'>
                             Instagram
                         </a>
