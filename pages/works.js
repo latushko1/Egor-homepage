@@ -15,7 +15,8 @@ function Works() {
         y:0,
         }}
         viewport={{
-            amount:0.1
+            amount:0.1,
+            once: true,
         }}
     id='works'>
         <h1 className='container text-secondary text-6xl uppercase font-bold lg:text-9xl text-right my-12'>

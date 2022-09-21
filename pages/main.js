@@ -35,7 +35,8 @@ function Main() {
             y:0,
             }}
             viewport={{
-                amount:0.5
+                amount:0.5,
+                once: true,
             }}
         id='about' className='min-h-screen border-b-2 border-secondary grid place-items-center '>
             <h3 className='container text-secondary text-6xl uppercase font-bold lg:text-9xl text-right'>

@@ -13,7 +13,8 @@ function Links() {
         y:0,
         }}
         viewport={{
-            amount:0.5
+            amount:0.5,
+            once:true,
         }}
 
     id='links' className='border-b-2 border-secondary'>
